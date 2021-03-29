@@ -1,9 +1,9 @@
 # React Calculator IMC + IRPF 
 
-To Run
+> To Run
 `npm install`
 
-To Start
+> To Start
 `npm run start`
 
 ### Dependencys
