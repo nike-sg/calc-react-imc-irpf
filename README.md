@@ -1,10 +1,10 @@
 # React Calculator IMC + IRPF 
 
 To Run
-> npm install 
+`npm install`
 
 To Start
-> npm run start
+`npm run start`
 
 ### Dependencys
 Java Apps
@@ -24,7 +24,7 @@ Java Apps
   })
   ```
   - run
-  > mvn spring-boot:run
+  `mvn spring-boot:run`
 2. [Java - RestAPI IMC](https://github.com/prof-emilio-resende/java-imc-calc-api)
   - run
-  > mvn spring-boot:run
+  `mvn spring-boot:run`
