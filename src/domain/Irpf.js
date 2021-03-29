@@ -22,17 +22,17 @@ export default class Irpf {
   }
 
   set dependents(theDependentes) {
-    console.log('setting dependents', theDependentes);
+    console.log('setting dependents');
     this._dependents = theDependentes;
   }
 
   set totalSalary(theTotalSalary) {
-    console.log('setting Total Salary', theTotalSalary);
+    console.log('setting Total Salary');
     this._totalSalary = theTotalSalary;
   }
 
   set tax(theTax)  {
-    console.log('setting tax', theTax);
+    console.log('setting tax');
     this._tax = theTax;
   }
 
