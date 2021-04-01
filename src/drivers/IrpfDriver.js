@@ -22,10 +22,9 @@ export default class IrpfDriver {
    * 
    * @param {Irpf} irpf 
    */
-  async calculate(irpf) {
+  async calculateIrpf(irpf) {
     const response = await this.xhr
       .post('http://localhost:8090', '/irpf/calculate', irpf);
-
     return await response.json();
   }
 }

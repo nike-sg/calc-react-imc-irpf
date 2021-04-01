@@ -2,11 +2,11 @@ import { useIrpf } from '../hooks/useIrpf.hook';
 
 function IrpfView({ className }) {
 
-  const [tax] = useIrpf();
-
+  const [irpf] = useIrpf();
+  
   return (
     <div className={className}>
-      Sua Taxa &eacute; <span id="irpf">{tax}</span>
+      Sua Taxa &eacute; <span id="irpf">{parseFloat(irpf.tax).toFixed(2)}</span>
     </div>
   );
 }

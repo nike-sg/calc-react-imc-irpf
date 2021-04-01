@@ -2,6 +2,6 @@ import { useContext } from 'react';
 import { IrpfContext } from '../contexts/IrpfContextProvider';
 
 export const useIrpf = () => {
-  const { tax, setData } = useContext(IrpfContext);
-  return [tax, setData];
+  const { irpf, setData } = useContext(IrpfContext);
+  return [irpf, setData];
 };

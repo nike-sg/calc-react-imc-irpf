@@ -12,10 +12,10 @@ export default class IrpfController {
     return this;
   }
 
-  async calculate(person) {
+  async calculateIrpf(irpf) {
     const instance = await this.prepare();
     return instance
       .irpfDriver
-      .calculate(person);
+      .calculateIrpf(irpf);
   }
 }
