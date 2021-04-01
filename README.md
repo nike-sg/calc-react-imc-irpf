@@ -1,5 +1,13 @@
 # React Calculator IMC + IRPF 
 
+### Integrantes
+- Alexandre 
+- Camila 
+- Gercino 
+- Luan 
+- Nikolas
+
+
 > To Run
 `npm install`
 
